@@ -7,7 +7,7 @@ class BeerList extends Component {
 
     }
     componentDidMount() {
-        fetch('http://ih-beers-api2.herokuapp.com/beers')
+        fetch('https://ih-beers-api2.herokuapp.com/beers')
             .then(response => response.json())
             .then(json => {
                 console.log(json)

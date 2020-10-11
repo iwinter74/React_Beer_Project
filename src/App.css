@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  background: black;
+  color: white;
+  border-radius: 50px;
+}
+.beer {
+  width: 10%;
+  margin-bottom: 3em;
+  height: 150px;
+}
+.logo {
+  width: 10%;
+  margin-bottom: 3em;
+}
+
+.random_beer {
+  width:10%
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em
+}
+#all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#all img {
+  width: 50%
+}
+#all a:nth-of-type(2) {
+  margin-bottom: 2em;
+  margin-top: 5em
+}
+#all a:nth-of-type(1) {
+  margin-bottom: 2em;
+}
+#all p {
+  margin: 2em
+}
+.list {
+  margin-top: 1em
+}
+.detailsBeer img, .randomBeer img {
+  height: 500px
+}
+
+.detailsBeer p, .detailsBeer h3, .detailsBeer h6, .randomBeer p, .randomBeer h3, .randomBeer h6 {
+  padding: 1em 20em
+}
+
